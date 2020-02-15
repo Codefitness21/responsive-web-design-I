@@ -71,7 +71,6 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 	height: 1250px;
 	margin: auto;	
-	border: 1px solid hotpink;
 }
 
 header nav {
@@ -94,16 +93,16 @@ header nav a {
 h1 {
 font-size: 80px;
 text-align: center;
-width: 40%;
+width: 50%;
 margin-top: 50px;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-around;
 }
 
 
 button {
 	width: 100px;
-	margin-left: 15%;
+	margin-left: 20%;
 	padding: 10px;
 	display: block;
 	margin-bottom: 100px;
@@ -185,3 +184,41 @@ footer {
     width: 100%;
 }
 
+/* Tablet */
+@media screen and (max-width: 800px) {
+    .container {
+        width: 900px;
+        height: 1400px;	
+    }
+
+    /*Great-Idea logo*/
+    header img.logo {
+        display: flex;
+        justify-content: center;
+        margin-left: 380px;
+        margin-top: -110px;
+     }
+ 
+
+    header nav {
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cta img  {
+       display: none;
+    }
+    
+    h1 {
+        width: 100%;
+        margin-top: 110px;
+    }
+
+
+    button {
+        width: 69%;
+        margin-left: 145px;
+    }
+
+}
