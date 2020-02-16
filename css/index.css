@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 }
 
 header nav {
-	display:inline-block;
+    display: inline-block;
 	color: gray;
 }
 
@@ -186,11 +186,7 @@ footer {
 
 /* Tablet */
 @media screen and (max-width: 800px) {
-    .container {
-        width: 900px;
-        height: 1400px;	
-    }
-
+   
     /*Great-Idea logo*/
     header img.logo {
         display: flex;
@@ -199,7 +195,6 @@ footer {
         margin-top: -110px;
      }
  
-
     header nav {
         margin-top: 120px;
         display: flex;
@@ -221,4 +216,85 @@ footer {
         margin-left: 145px;
     }
 
+}
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+        .container {
+            max-width: 500px;
+          }
+        
+
+    /*Great-Idea logo*/
+    header img.logo {
+        margin-top: -260px;
+        margin-left: 163px;
+    }
+
+   
+
+    header nav {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #horizontal {
+        width: 95%;
+    }
+
+    h1 {
+        margin-top: 290px; 
+    }
+
+    button {
+        margin-left: 85px;
+    }
+
+    img.middle-img {
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .box-1 {
+       flex-direction: column;
+       width: 95%;
+       margin-top: 30px;
+       margin-bottom: 10px;
+       margin-left: 10px;
+    }
+
+    .box-2 {
+       flex-direction: column;
+       width: 95%;
+       margin-bottom: 30px;
+       margin-left: 10px;
+    }
+
+    .box-3 {
+       flex-direction: column;
+       width: 95%;
+       margin-top: 10px;
+       margin-left: 20px;
+    }
+
+    .box-4 {
+       flex-direction: column;
+       width: 95%;
+       margin-top: 50px;
+       margin-bottom: 40px;
+       margin-left: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        width: 95%;
+          
+    }
+   
 }
