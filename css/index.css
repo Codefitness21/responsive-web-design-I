@@ -241,6 +241,10 @@ footer {
         margin-right: auto;
     }
 
+    nav a{
+        border-bottom: 1px solid gray;
+        width: 100%;
+    }
 
     #horizontal {
         width: 95%;
