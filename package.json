@@ -4,7 +4,7 @@
   "description": "It's time to expand our CSS skills into multiple devices.  You will be creating an adaptive version of the \"Great Idea\" design. You will be working through design mock ups for desktop, tablet, and mobile devices located in the [design-files](design-files) folder.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d design-files"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Codefitness21/responsive-web-design-I/issues"
   },
-  "homepage": "https://github.com/Codefitness21/responsive-web-design-I#readme",
+  "homepage": "https://Codefitness21.github.io/responsive-web-design-I",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
