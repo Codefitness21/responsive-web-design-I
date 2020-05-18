@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Codefitness21/responsive-web-design-I/issues"
   },
-  "homepage": "https://github.com/Codefitness21/responsive-web-design-I#readme"
+  "homepage": "https://github.com/Codefitness21/responsive-web-design-I#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
