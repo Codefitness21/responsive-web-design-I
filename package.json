@@ -4,7 +4,7 @@
   "description": "It's time to expand our CSS skills into multiple devices.  You will be creating an adaptive version of the \"Great Idea\" design. You will be working through design mock ups for desktop, tablet, and mobile devices located in the [design-files](design-files) folder.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d Great Idea"
+    "deploy": "gh-pages -d great-idea"
   },
   "repository": {
     "type": "git",
