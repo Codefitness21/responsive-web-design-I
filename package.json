@@ -1,0 +1,20 @@
+{
+  "name": "responsive-web-design-I",
+  "version": "1.0.0",
+  "description": "It's time to expand our CSS skills into multiple devices.  You will be creating an adaptive version of the \"Great Idea\" design. You will be working through design mock ups for desktop, tablet, and mobile devices located in the [design-files](design-files) folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codefitness21/responsive-web-design-I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codefitness21/responsive-web-design-I/issues"
+  },
+  "homepage": "https://github.com/Codefitness21/responsive-web-design-I#readme"
+}
